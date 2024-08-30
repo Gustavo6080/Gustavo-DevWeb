@@ -1,0 +1,56 @@
+Trabalho Dia 16/08-
+
+Desenvolvimento Web | 2ºperíodo | 2024
+
+
+Tarefa de Exploração:
+
+
+    Python- 
+
+        Aprenda sobre Pyhton: 
+        https://aws.amazon.com/pt/what-is/python/
+
+        Download e Documentação do Pyhton:
+        https://www.python.org/
+
+        Relação com a Disciplina: 4|10|11
+
+            
+
+    Git-
+
+        Aprenda sobre Git:
+        https://www.atlassian.com/br/git/tutorials/what-is-git
+        https://www.alura.com.br/artigos/o-que-e-git-github
+
+        Download do Git:
+        https://git-scm.com/
+
+        Relação com a Disciplina: 4|13|14
+
+
+    VsCode- 
+
+        Aprenda sobre VsCode:
+        https://www.remessaonline.com.br/blog/visual-studio-code-confira-as-principais-funcoes-da-ferramenta/
+        https://www.devmedia.com.br/introducao-ao-visual-studio-code/34418
+
+
+        Download do Visual Studio:
+        https://code.visualstudio.com/download
+
+        Relação com a Disciplina: 1|5|6|7|10|11
+
+  
+  
+    Sqlitebrowser-
+
+        Aprenda sobre Sqlitebrowser:
+        https://www.edureka.co/blog/sqlite-browser/#:~:text=It%20is%20for%20users%20and,to%20learn%20complicated%20SQL%20commands.
+
+
+        Download e Documentação do Sqlitebrowser:
+        https://sqlitebrowser.org/
+
+        Relação com a Disciplina: 2|3|8|12|13
