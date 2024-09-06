@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Página de Exemplo</h1>
+        <nav>
+            <ul>
+                <li><a href="#secao1">Ir para Seção 1</a></li>
+                <li><a href="pag02.html">Ir para Outra Página</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="secao1">
+        <h2>Seção 1</h2>
+        <p>Esta é a primeira seção da página.</p>
+    </section>
+    
+    <section id="secao2">
+        <h2>Formulário com Método GET</h2>
+        <form action="submit" method="get">
+            <label for="nome_get">Nome:</label>
+            <input type="text" id="nome_get" name="nome_get">
+            <button type="submit">Enviar GET</button>
+        </form>
+    </section>
+
+    <section id="secao3">
+        <h2>Formulário com Método POST</h2>
+        <form action="submit" method="post">
+            <label for="nome_post">Nome:</label>
+            <input type="text" id="nome_post" name="nome_post">
+            <button type="submit">Enviar POST</button>
+        </form>
+    </section>
+
+    <section id="secao4">
+        <h2>Formulário com textarea</h2>
+        <form action="submit" method="get">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+            <label for="mensagem">Mensagem: </label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Formulário com Options</h2>
+        <form action="/submit" method="post">
+            <label for="opcao">Escolha uma opção:</label>
+            <select id="opcao" name="opcao">
+                <option value="opcao1">Opção a</option>
+                <option value="opcao2">Opção b</option>
+                <option value="opcao3">Opção c</option>
+                <option value="opcao4">Opção d</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <h2>Links</h2>
+        <a href="pag02.html">Teste de link</a>
+
+
+    <h2>Imagens</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Ibmec_logo.png" alt= "Logo Ibmec">
+
+    <h2>Video</h2>
+        <h3>Video exportado</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=wtXJvT84L49jFQKC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h3>Video Salvo</h3>
+        <video src="video/video-fundo.mp4" controls ></video>
+        
+    <h2>Audio</h2>
+    <audio src="audio/we-will-fight-203574.mp3" controls>audio mp3</audio>
+
+    <h2>Strong, Em, Del, Ins</h2>
+    <ul>
+        <li><strong>Usando strong</strong></li>
+        <li><em>Usando em</em></li>
+        <li><del>Usando del</del> </li>
+        <li><ins>Usando ins</ins></li>
+    </ul>
+</body>
+</html>
