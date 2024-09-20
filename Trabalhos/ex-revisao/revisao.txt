@@ -1,0 +1,192 @@
+Aqui está o texto sem apóstrofos e asteriscos:
+
+1 Duas vantagens da utilização de sistemas de versionamento de código:
+   - Controle de versões: Permitem gerenciar o histórico de alterações do código, facilitando a reversão a versões anteriores quando necessário.
+   - Trabalho em equipe: Facilitam a colaboração entre vários desenvolvedores, possibilitando que diferentes partes do código sejam trabalhadas simultaneamente, com mecanismos para integrar mudanças de forma eficiente.
+
+2 Diferença entre Git e GitHub:
+   - Git: É um sistema de controle de versão distribuído que permite que os desenvolvedores rastreiem mudanças no código-fonte durante o desenvolvimento de software.
+   - GitHub: É uma plataforma baseada na web que usa Git, mas adiciona funcionalidades de colaboração, como repositórios remotos, issues, pull requests, entre outros.
+
+3 Três principais linguagens utilizadas na construção de documentos da Web e suas funcionalidades:
+   - HTML (HyperText Markup Language): Define a estrutura do conteúdo de uma página da web.
+   - CSS (Cascading Style Sheets): Estiliza o conteúdo de uma página, controlando layout, cores, fontes, etc.
+   - JavaScript: Adiciona interatividade e comportamentos dinâmicos ao conteúdo de uma página.
+
+4 Diferença entre tag, elemento e atributo (HTML):
+   - Tag: Uma palavra-chave em HTML usada para marcar o início ou o fim de um elemento (por exemplo, `<p>`).
+   - Elemento: Conjunto da tag de abertura, o conteúdo e a tag de fechamento (por exemplo, `<p>Estou por aqui</p>`).
+   - Atributo: Propriedades adicionais inseridas na tag de abertura de um elemento para modificar seu comportamento (por exemplo, `class="exemplo"` em `<p class="exemplo">`).
+
+5 Documento HTML mínimo:
+   ```html
+   <!DOCTYPE html>
+   <html lang="pt-BR">
+   <head>
+       <meta charset="UTF-8">
+       <title>Minha Página</title>
+   </head>
+   <body>
+       <p>Estou por aqui</p>
+   </body>
+   </html>
+   ```
+
+6 O que é uma pilha de protocolos no contexto da internet?
+   - É um conjunto de protocolos usados para diferentes funções na comunicação via internet. Cada camada da pilha trata de um aspecto específico, como transmissão de dados, roteamento, e garantia de integridade. A pilha TCP/IP, por exemplo, tem camadas como transporte e aplicação.
+
+7 Principais protocolos da camada de transporte e diferença entre eles:
+   - TCP (Transmission Control Protocol): Protocolo orientado à conexão, que garante a entrega de pacotes de dados em ordem e sem perdas.
+   - UDP (User Datagram Protocol): Protocolo sem conexão, mais rápido que o TCP, porém não garante a entrega ou a ordem dos pacotes.
+
+8 Principais características da arquitetura cliente-servidor:
+   - Nessa arquitetura, um cliente faz solicitações e o servidor responde. O servidor gerencia e distribui dados centralizados.
+   - Diferença de P2P: Em sistemas P2P, todos os nós são iguais e podem atuar tanto como cliente quanto servidor, compartilhando recursos diretamente entre si.
+
+9 O que é um processo no contexto do desenvolvimento de aplicações de internet?
+   - Um processo é uma instância de um programa em execução. Para efeitos de comunicação, os processos são identificados por números únicos chamados IDs de processo (PID).
+
+10 O que é SSL (Secure Sockets Layer)?
+    - SSL é um protocolo de segurança que cria um canal criptografado entre o navegador e o servidor para proteger dados transmitidos, como senhas e informações pessoais.
+
+11 Quantos são os filhos do nó raiz em um documento HTML? Há limite para o número de descendentes do nó raiz?
+    - O nó raiz de um documento HTML é o elemento `<html>`, que possui geralmente dois filhos: `<head>` e `<body>`. Não há limite de descendentes para o nó raiz em um documento HTML.
+
+12 Cinco tipos de elementos de marcação ou organização de conteúdo e cinco tipos de elementos de marcação semântica:
+
+    - Elementos de organização de conteúdo:
+      1. `<div>`: Agrupamento genérico de conteúdo.
+      2. `<span>`: Para estilizar texto inline.
+      3. `<section>`: Agrupa uma seção de conteúdo.
+      4. `<article>`: Para conteúdo autossuficiente, como artigos.
+      5. `<header>`: Define o cabeçalho de uma página ou seção.
+    
+    - Elementos semânticos:
+      1. `<header>`: Define a seção de cabeçalho.
+      2. `<nav>`: Define uma seção de navegação.
+      3. `<footer>`: Define o rodapé da página.
+      4. `<main>`: Representa o conteúdo principal de um documento.
+      5. `<aside>`: Para conteúdo lateral, como uma barra lateral.
+
+13 Elemento utilizado para capturar informações de usuários em HTML:
+    - O elemento `<form>` é utilizado para capturar informações dos usuários.
+
+14 Elemento utilizado para navegação entre diferentes documentos HTML:
+    - O elemento `<a>` (âncora) é utilizado para navegação entre páginas ou documentos.
+
+15 Cinco elementos utilizados em formulários HTML e suas utilidades:
+    - `<input type="text">`: Campo para entrada de texto.
+    - `<textarea>`: Área de texto para múltiplas linhas.
+    - `<button>`: Botão clicável.
+    - `<select>`: Menu de seleção com várias opções.
+    - `<input type="checkbox">`: Caixa de seleção que permite múltiplas escolhas.
+
+    16) **Atributos HTML:**
+- **a) class**: Define uma ou mais classes para o elemento. Classes são usadas para aplicar estilos CSS ou para manipulação com JavaScript. Exemplo:
+   ```html
+   <div class="container"></div>
+   ```
+
+- **b) id**: Atribui um identificador único ao elemento. O `id` é usado para referenciar esse elemento em CSS ou JavaScript. Exemplo:
+   ```html
+   <div id="main-header"></div>
+   ```
+
+- **c) name**: Usado principalmente em formulários para identificar os dados do campo enviados para o servidor. Exemplo:
+   ```html
+   <input type="text" name="username">
+   ```
+
+- **d) hidden**: Oculta o elemento na página. O elemento não é exibido, mas ainda existe no DOM. Exemplo:
+   ```html
+   <input type="hidden" value="secret">
+   ```
+
+- **e) style**: Define estilos inline para o elemento, aplicando CSS diretamente no HTML. Exemplo:
+   ```html
+   <p style="color: red;">Texto vermelho</p>
+   ```
+
+- **f) title**: Adiciona um texto que aparece como dica (tooltip) quando o usuário passa o cursor sobre o elemento. Exemplo:
+   ```html
+   <a href="#" title="Clique aqui">Link</a>
+   ```
+
+17) **Degradação graciosa (graceful degradation)**: É uma prática de desenvolvimento onde o site ou aplicação é construído para funcionar em navegadores modernos, mas ainda mantém uma experiência funcional em navegadores mais antigos. Quando uma funcionalidade não é suportada, o site continua usável, porém com funcionalidades reduzidas.
+
+18) **Regra, seletor e declaração no CSS:**
+- **Regra**: É o bloco que define os estilos a serem aplicados em um seletor.
+   ```css
+   h1 {
+     color: blue;
+   }
+   ```
+- **Seletor**: Define o(s) elemento(s) ao qual a regra será aplicada, como `h1`, `.class`, `#id`.
+- **Declaração**: Consiste em uma propriedade e um valor, separados por dois pontos (`:`), dentro de chaves (`{}`). Exemplo:
+   ```css
+   color: blue;
+   ```
+
+19) **Seletor de classe vs Seletor de id no CSS:**
+- **Seletor de classe (`.`)**: Aplica estilos a todos os elementos com a classe especificada. Exemplo:
+   ```css
+   .button {
+     background-color: green;
+   }
+   ```
+   HTML:
+   ```html
+   <button class="button">Enviar</button>
+   ```
+- **Seletor de id (`#`)**: Aplica estilos ao elemento com um `id` específico, que deve ser único na página. Exemplo:
+   ```css
+   #header {
+     background-color: blue;
+   }
+   ```
+   HTML:
+   ```html
+   <div id="header"></div>
+   ```
+
+20) **CSS Box Model:**
+- **margin**: Define o espaço externo ao redor do elemento (distância entre o elemento e outros).
+   ```css
+   margin: 10px;
+   ```
+
+- **border**: É a borda ao redor do conteúdo e do padding.
+   ```css
+   border: 1px solid black;
+   ```
+
+- **padding**: Define o espaço interno entre o conteúdo do elemento e sua borda.
+   ```css
+   padding: 20px;
+   ```
+
+21) **Posicionamento no CSS:**
+- **static**: É o posicionamento padrão, onde o elemento segue o fluxo normal do documento.
+   ```css
+   position: static;
+   ```
+
+- **relative**: O elemento é posicionado relativo à sua posição normal no fluxo do documento.
+   ```css
+   position: relative;
+   top: 10px;
+   ```
+
+- **absolute**: O elemento é posicionado em relação ao seu ancestral mais próximo com posicionamento `relative` ou `absolute`. Caso não exista, será relativo ao documento.
+   ```css
+   position: absolute;
+   top: 50px;
+   left: 20px;
+   ```
+
+- **fixed**: O elemento é posicionado em relação à janela do navegador e permanece fixo quando a página é rolada.
+   ```css
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   ```
